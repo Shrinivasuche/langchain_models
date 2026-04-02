@@ -13,9 +13,9 @@ model = ChatGoogleGenerativeAI(
 )
 
 # simple message prompt
-result = model.invoke("What is the capital of India?")
-print(result)
-print(result.content[0]["text"])
+# result = model.invoke("What is the capital of India?")
+# print(result)
+# print(result.content[0]["text"])
 
 # message prompt with roles and content
 conversation = [
@@ -23,7 +23,6 @@ conversation = [
     {"role": "user", "content": "What is the capital of India?"},
 ]
 response = model.invoke(conversation)
-print(response)
+# print(response)
 print(response.content[0]["text"])
-
 
