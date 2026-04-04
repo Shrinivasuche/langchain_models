@@ -1,6 +1,5 @@
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 import os
-# from langchain_huggingface.embeddings import HuggingFaceEndpointEmbeddings
 
 from dotenv import load_dotenv
 
